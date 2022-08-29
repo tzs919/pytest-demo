@@ -23,6 +23,7 @@
 /.pytest_cache
 /.pytest_cache/
 **/.pytest_cache/
+**/.my_allure_results
 
 /__pycache__
 /__pycache__/

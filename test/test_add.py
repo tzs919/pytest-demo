@@ -22,6 +22,7 @@ def test_add1():
 def test_add2():
     assert add(1, 99) == 100
 
+
 class TestClass:
     def test_one(self):
         x = "this"
@@ -30,4 +31,3 @@ class TestClass:
     def test_two(self):
         x = "hello"
         assert not hasattr(x, "check")
-

@@ -15,7 +15,7 @@ def operate():
 
 # 参数对应的函数在测试用例运行之前即都被调用，然后在此处传入函数运行的结果值
 def test_case1(login, operate):
-    # print(login)
+    print(type(operate))
     x, y = login
     print("===", x, y)
     print(operate)
