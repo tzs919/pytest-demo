@@ -129,6 +129,7 @@ def test_broken_with_randomized_time():
 
 @pytest.fixture(scope="session")
 def login_fixture():
+    """需安装【pip3 install pytest-rerunfailures】"""
     print("前置登录")
 
 

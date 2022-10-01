@@ -52,3 +52,4 @@ report.html
 output.xml
 *.log
 QuickStart.html
+.coverage

@@ -2,7 +2,7 @@
 import pytest
 
 
-@pytest.fixture()
+@pytest.fixture(scope="session")
 def login():
     print("这是个登录方法")
     return 'tom', '123'
